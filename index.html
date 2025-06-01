@@ -1,0 +1,133 @@
+<style>
+  #banner {
+    background-color: #002d72;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+  }
+
+  #banner a {
+    color: #ffcc00;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    border: 2px solid #ffcc00;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  #banner a:hover {
+    background-color: #ffcc00;
+    color: #002d72;
+  }
+
+  #main-content {
+    margin: 40px auto;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  #main-content h1 {
+    font-size: 2rem;
+    color: #002d72;
+    margin-bottom: 20px;
+  }
+
+  #main-content p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  #quick-glance {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+  }
+
+  #quick-glance h2 {
+    font-size: 1.5rem;
+    color: #002d72;
+    margin-bottom: 10px;
+  }
+
+  #quick-glance ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #quick-glance li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+
+  #quick-glance li strong {
+    font-weight: bold;
+  }
+</style>
+
+<div id="banner">
+  Submit your Continuing Professional Education credits here
+  <a href="#" id="stealCookies">Submit Now</a>
+</div>
+
+<div id="main-content">
+  <h1>Earn the CISSP - The World's Premier Cybersecurity Certification</h1>
+  <p>
+    Accelerate your cybersecurity career with the CISSP certification. Earning the CISSP proves you have what it takes to effectively design, implement, and manage a best-in-class cybersecurity program.
+  </p>
+  <p>
+    With a CISSP, you validate your expertise and become an ISC² member, unlocking a broad array of exclusive resources, educational tools, and peer-to-peer networking opportunities.
+  </p>
+  <p>
+    Prove your skills, advance your career, help earn the salary you want, and gain the support of a community of cybersecurity leaders here to support you throughout your career.
+  </p>
+  <p>
+    Already Have a Peace of Mind Voucher? <a href="#" id="redeemLink">Learn how to redeem it now.</a>
+  </p>
+</div>
+
+<div id="quick-glance">
+  <h2>CISSP Quick Glance</h2>
+  <ul>
+    <li><strong>Cybersecurity Leadership and Operations:</strong> Recognizes cybersecurity professionals with the knowledge, skills, and abilities to lead an organization’s information security program.</li>
+    <li><strong>What to Expect on the CISSP Exam:</strong> Domains covered include:
+      <ul>
+        <li>Domain 1: Security and Risk Management</li>
+        <li>Domain 2: Asset Security</li>
+        <li>Domain 3: Security Architecture and Engineering</li>
+        <li>Domain 4: Communication and Network Security</li>
+        <li>Domain 5: Identity and Access Management (IAM)</li>
+        <li>Domain 6: Security Assessment and Testing</li>
+        <li>Domain 7: Security Operations</li>
+        <li>Domain 8: Software Development Security</li>
+      </ul>
+    </li>
+    <li><strong>Required Work Experience:</strong> 5 Years</li>
+    <li><strong>ISO/IEC Standard 17024 Accredited</strong></li>
+    <li><strong>Approved by U.S. Department of Defense (DoDM 8140.03)</strong></li>
+  </ul>
+</div>
+
+<script>
+  document.getElementById("stealCookies").addEventListener("click", function(event) {
+    event.preventDefault();
+    alert("You're lucky I didn't steal your cookies!!! -Cookie Monster");
+  });
+<footer>
+  <style>
+.redText {color:red;}
+</style>
+  <p>Disclaimer: This is a student run exercise for a course</p>
+</footer>
+  
+  document.getElementById("redeemLink").addEventListener("click", function(event) {
+    event.preventDefault();
+    alert("Hello World");
+  });
+</script>
